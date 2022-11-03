@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H8_kelompok 8_fp1</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1><center>Transportation Price Prediction</center></h1>
+    <h4><center>Create by :</center></h4>
+    <h4><center>Anugrah Aidin Yotolembah</center></h4>
+    <h4><center>Nafiatul Risa</center></h4>
+    <h4><center></center></h4>
+ 
+    <!-- The form -->
+    <!-- The form -->
+    <form action="{{ url_for('predict') }}" method="post">
+        <!-- Some input checks -->
+        <input type="text" name="distance" placeholder="distance" required="required" />
+        <input type="text" name="surge_multiplier" placeholder="surge_multiplier" required="required" />
+        <input type="text" name="cab_type_Lyft" placeholder="cab_type_Lyft" required="required" />
+        <input type="text" name="cab_type_Uber" placeholder="cab_type_Uber" required="required" />
+        <input type="text" name="name_Black" placeholder="name_Black" required="required" />
+        <input type="text" name="name_Black SUV" placeholder="name_Black SUV" required="required" />
+        <input type="text" name="name_Lux" placeholder="name_Lux" required="required" />
+        <input type="text" name="name_Lux Black" placeholder="name_Lux Black" required="required" />
+        <input type="text" name="name_Lux Black XL" placeholder="name_Lux Black XL" required="required" />
+        <input type="text" name="name_Lyft" placeholder="name_Lyft" required="required" />
+        <input type="text" name="name_Lyft XL" placeholder="name_Lyft XL" required="required" />
+        <input type="text" name="name_Shared" placeholder="name_Shared" required="required" />
+        <input type="text" name="name_UberPool" placeholder="name_UberPool" required="required" />
+        <input type="text" name="name_UberX" placeholder="name_UberX" required="required" />
+        <input type="text" name="name_UberXL" placeholder="name_UberXL" required="required" />
+        <input type="text" name="name_WAV" placeholder="name_WAV" required="required" />
+ 
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+        <!-- The results -->
+        <p>{{ prediction_text }}</p>
+    </form>
+</body>
+
+</html>
