@@ -88,16 +88,16 @@ Packages: Pandas, Numpy, Matplotlib, Seaborn, and Sklearn.
 
 ### Exploratory Data Analysis
 - Average price of Uber and Lyft
-- 
+
 ![image](https://user-images.githubusercontent.com/90852026/199748586-536efad2-319e-4e5f-b2de-0ba5bfc168b3.png)
 - There is no significant difference from the use of Uber and Lyft
-- 
+
 ![image](https://user-images.githubusercontent.com/90852026/199748849-94afca5d-ba2d-4b60-8303-9e2d2014a9f7.png)
 - Destination Uber and Lyft by Distance
-- 
+
 ![image](https://user-images.githubusercontent.com/90852026/199749174-d2bc457e-e144-4577-a4ac-fe9c65d4139d.png)
 - Outlier data Price vs Cab Type
-- 
+
 ![image](https://user-images.githubusercontent.com/90852026/199749319-d83d9b6f-8020-4fd7-b0b4-8e1ab5ac53fe.png)
 - Price analysis :
  - Average or mean of price data in every route (source-destination)
