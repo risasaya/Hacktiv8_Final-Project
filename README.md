@@ -64,5 +64,7 @@ Packages: Pandas, Numpy, Matplotlib, Seaborn, and Sklearn.
 ### Recommendation : 
 There are still better and more accurate models than Linear Regression. Use the best model when dealing with real data.
 
+### Try Prediction : https://h8-kelompok8-fp1.herokuapp.com/
+
 
 ## Final Project 2 : Coming Soon
