@@ -385,7 +385,7 @@ Outliers distribution using Histogram, Probability Plot, and Boxplot.
 The Random Forest model is an algorithm used to predict the likelihood of having a heart attack. The use of Gradient Boosting, Extraa-trees, and AdaBoost models can be used as another alternative because they have good evaluation metric values.
 
 
-## Final Project 4 : Cardiovascular Disease Prediction using Ensemble Model
+## Final Project 4 : Customer Segmentation
 
 ### Use Case 
 Customer segmentation from Credit Card data.
