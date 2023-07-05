@@ -1,5 +1,5 @@
 # Hacktiv8_Final-Project
- This repository contains the final project of the Independent Data Science Study at Hacktiv8
+ This repository contains the final project of the Independent Data Science Study at Hacktiv8. I use this repository as my portfolio.
 
 ## Final Project 1 : Uber and Lyft Price Prediction using Linear Regression
 
@@ -386,4 +386,82 @@ The Random Forest model is an algorithm used to predict the likelihood of having
 
 
 ## Final Project 4 : Cardiovascular Disease Prediction using Ensemble Model
+
+### Use Case 
+Customer segmentation from Credit Card data.
+* Objective Statement : Implement This project was created to evaluate the concept of Ensemble Model as follows:
+  - Understand the concept of Clustering with Scikit-Learn
+  - Prepare data for use in the Clustering
+  - Implement the Clustering using credit data
+* Methodology / Analytic Technique: Descriptive analysis
+
+### Dataset
+RangeIndex: 8950 entries, 0 to 8949
+Data columns (total 18 columns) 
+dtypes: float64(14), int64(3), object(1)
+memory usage: 1.2+ MB
+
+### Data preparation
+Python Version: 3.7.6
+Packages: Pandas, Numpy, Matplotlib, Seaborn, and Sklearn.
+
+### Data Cleansing
+- No duplicate data
+- Missing value in MINIMUM_PAYMENTS and CREDIT_LIMIT. Missing value in the MINIMUM_PAYMENT column will be inputted with the average value of the data. In the CREDIT LIMIT column, the missing value will be dropped, because only 1 data contains a missing value.
+- Drop unnecessary column.
+
+### Exploratory Data Analysis
+* Month with the highest Tenure.
+
+![image](https://github.com/risasaya/Hacktiv8_Final-Project/assets/90852026/b4eaef87-77af-4b9b-ba03-31041bb562cf)
+
+* Frequently customer balance update
+
+![image](https://github.com/risasaya/Hacktiv8_Final-Project/assets/90852026/30c895d1-74e5-40e7-8697-24a74e83dc9e)
+
+* Frequently customer balance purchases
+
+![image](https://github.com/risasaya/Hacktiv8_Final-Project/assets/90852026/eb3d87ce-9e85-4386-9fb1-3ccafb57409f)
+
+* Skewness Distribution
+
+![image](https://github.com/risasaya/Hacktiv8_Final-Project/assets/90852026/752f520a-82fd-4c81-8ec0-426bb9322645)
+
+* Correlation
+
+![image](https://github.com/risasaya/Hacktiv8_Final-Project/assets/90852026/4a01f235-30f9-435b-b62f-4c003092e22a)
+
+* Outlier
+
+![image](https://github.com/risasaya/Hacktiv8_Final-Project/assets/90852026/d90c3940-ca61-4211-919e-6394e22d39bb)
+
+* Credit Card analysis :
+  - Highest tenure is 12 month.
+  - Most customers frequently update the balance they have.
+  - Most customers don't make frequent purchases.
+  - There is a lot of varying skewness in the data
+  - Some variables have moderate to high correlation values with other variables.
+  - Lots of outliers in the data.
+
+### Data Preprocessing
+- Handle the Skewness
+
+  ![image](https://github.com/risasaya/Hacktiv8_Final-Project/assets/90852026/4544ec3f-a762-4e92-892d-09a6a699eb19)
+
+- Handle Outlier using Standart Deviation
+
+  ![image](https://github.com/risasaya/Hacktiv8_Final-Project/assets/90852026/31049a9b-01cc-4bde-8401-61b723b74b40)
+
+### Modelling Data : Elbow Method
+- Determine which cluster to use.
+
+![image](https://github.com/risasaya/Hacktiv8_Final-Project/assets/90852026/dea3330d-9625-4558-98dd-676913711951)
+  
+- Elbow n=3
+
+![image](https://github.com/risasaya/Hacktiv8_Final-Project/assets/90852026/104823d7-6141-4080-ab98-844a593ca3a5)
+  
+- Elbow n=4
+
+![image](https://github.com/risasaya/Hacktiv8_Final-Project/assets/90852026/eaf8343f-8f61-45e7-b9dc-1d1289e471ad)
 
